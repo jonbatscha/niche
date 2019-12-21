@@ -40,11 +40,11 @@ Below, you can see the relative click/signup rates for each vertical, along with
 
 #### Clicks
 
-<table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>vertical</th>      <th>control</th>      <th>variation</th>      <th>control_rate</th>      <th>variation_rate</th>      <th>variation_rate/control_rate</th>      <th>pvalue</th>    </tr>  </thead>  <tbody>    <tr>      <th>0</th>      <td>college</td>      <td>16594</td>      <td>5733</td>      <td>0.036301</td>      <td>0.037201</td>      <td>1.024799</td>      <td>1.032911e-01</td>    </tr>    <tr>      <th>1</th>      <td>k12</td>      <td>705</td>      <td>1710</td>      <td>0.008505</td>      <td>0.020596</td>      <td>2.421646</td>      <td>6.076301e-94</td>    </tr>    <tr>      <th>2</th>      <td>places</td>      <td>534</td>      <td>1013</td>      <td>0.008396</td>      <td>0.015905</td>      <td>1.894413</td>      <td>2.256696e-34</td>    </tr>  </tbody></table>
+[Clicks](clicks.png)
 
 #### Signups
 
-<table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>vertical</th>      <th>control</th>      <th>variation</th>      <th>control_rate</th>      <th>variation_rate</th>      <th>variation_rate/control_rate</th>      <th>pvalue</th>    </tr>  </thead>  <tbody>    <tr>      <th>0</th>      <td>college</td>      <td>6126</td>      <td>2974</td>      <td>0.013401</td>      <td>0.019298</td>      <td>1.440031</td>      <td>2.203393e-61</td>    </tr>    <tr>      <th>1</th>      <td>k12</td>      <td>613</td>      <td>714</td>      <td>0.007395</td>      <td>0.008600</td>      <td>1.162898</td>      <td>5.879470e-03</td>    </tr>    <tr>      <th>2</th>      <td>places</td>      <td>445</td>      <td>471</td>      <td>0.006996</td>      <td>0.007395</td>      <td>1.056981</td>      <td>4.001169e-01</td>    </tr>  </tbody></table>
+[Signups](signups.png)
 
 ### Recommendation
 
@@ -72,7 +72,7 @@ A common issue that arises when running multiple experiments on a given data set
 
 ## Draft Email to CEO
 
-```
+*
 SUBJECT: A/B Test Results, Add To List/Compare
 
 Hey Luke,
@@ -82,7 +82,7 @@ We gathered the results from our A/B test. We did find some statistically signif
 
 Cheers,
 Jon
-```
+*
 
 
 # Part 2
